@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 # News App
 
-A simple Flutter Project which fetches News Articles,business,science,sport using NewsApi.org and shows in a List View. Don't forget to Add your News API access token in lib/Activities/mainActivity.dart file, it will not work without it.
+A simple Flutter Project which fetches News Articles, Business, Science, Sport using NewsApi.org and shows in a List View. Don't forget to Add your News API access token in lib/Activities/mainActivity.dart file, it will not work without it.
 
 <!--
 ##### Download APK
