@@ -1,16 +1,46 @@
-# application1
+<img src="./assets/screenshots/Flutter%20BMI.png" width="100%">
 
-A new Flutter project.
+# BMI Calculator App
 
-## Getting Started
+This is a flutter based simple BMI Calculator app which calculated Body Mass Index..
 
-This project is a starting point for a Flutter application.
+One of the first simple apps I created while on my journey to learn Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+<!--
+##### Download APK
+<pre><a href=""></a></pre>
+-->
+  
+### Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. [Font Awesome Flutter](https://pub.dev/packages/font_awesome_flutter)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. [Flutter Launcher Icons](https://pub.dev/packages/flutter_launcher_icons)
+
+## Setup
+
+  ##### Clone the repository
+```bash
+git clone https://github.com/swapnilsparsh/BMI-Calculator-App.git
+```
+  ##### Move to the desired folder
+```bash
+cd \bmi_calculator
+```
+
+  ##### To run the app, simply write
+```bash
+flutter pub get
+```
+
+```bash
+flutter run
+```
+
+## Requirements to contribute
+
+- Basic knowledge of programming is mandatory
+- The ability to use Git and GitHub
+- Some knowledge of Flutter and how to use Android Studio or Visual Studio is preferrable for a head start.
+- UI/UX Design skills are appreciable but not mandatory
+</a>
