@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 # News App
 
-A simple Flutter Project which fetches News Articles using NewsApi.org and shows in a List View. Don't forget to Add your News API access token in lib/Activities/mainActivity.dart file, it will not work without it.
+A simple Flutter Project which fetches News Articles,business,science,sport using NewsApi.org and shows in a List View. Don't forget to Add your News API access token in lib/Activities/mainActivity.dart file, it will not work without it.
 
 <!--
 ##### Download APK
@@ -16,25 +16,25 @@ A simple Flutter Project which fetches News Articles using NewsApi.org and shows
 1. [Font Awesome Flutter](https://pub.dev/packages/font_awesome_flutter)
 
 2. [Flutter Launcher Icons](https://pub.dev/packages/flutter_launcher_icons)
-3. 1. Dio<br />
-A powerful Http client for Dart, which supports interceptors, FormData, Request Cancellation, File Downloading, Timeout, etc.
-4. Flutter BLoC<br />
-Flutter widgets that make it easy to implement the BLoC design pattern.
-5. Intl<br />
-Package providers internationalization and localization facilities, including message translation, plurals and genders, date/number formatting and parsing, and bidirectional text.
-6. Url Launcher<br />
-Flutter plugin for launching a URL in the mobile platform. Supports iOS and Android.
-7. Cached Network Image<br />
-Flutter library to load and cache network images. Can also be used with placeholder and error widgets.
-8. Get It<br />
-Simple direct Service Locator that allows to decouple the interface from a concrete implementation and to access the concrete implementation from everywhere in your App.
-9. Build Runner<br />
-Tools to write binaries that run builders.
 
+3. [Dio](https://pub.dev/packages/Dio)
+A powerful Http client for Dart, which supports interceptors, FormData, Request Cancellation, File Downloading, Timeout, etc.
+
+4. [Flutter BLoC](https://pub.dev/packages/flutter_bloc)
+Flutter widgets that make it easy to implement the BLoC design pattern.
+
+5. [Intl](https://pub.dev/packages/intl)
+Package providers internationalization and localization facilities, including message translation, plurals and genders, date/number formatting and parsing, and bidirectional text.
+
+6. [Cached Network Image](https://pub.dev/packages/cached_network_image)
+Flutter library to load and cache network images. Can also be used with placeholder and error widgets.
+
+7. [webview_flutter](https://pub.dev/packages/webview_flutter)
+ Flutter library to read the Android Platform Views section below to choose the platform view mode that best suits your needs
 ## Feature
 - [X] List daily news.
+- [X] List of three category business,sport,science
 - [X] Filter daily news by category.
-- [X] Refresh list daily news with pull to refresh style.
 - [X] Go to detail news website.
 - [X] Search news.
 - [X] Dark mode support.
@@ -43,11 +43,11 @@ Tools to write binaries that run builders.
 
   ##### Clone the repository
 ```bash
-git clone https://github.com/swapnilsparsh/BMI-Calculator-App.git
+git clone https://github.com/swapnilsparsh/News-app.git
 ```
   ##### Move to the desired folder
 ```bash
-cd \bmi_calculator
+cd \News-app
 ```
 
   ##### To run the app, simply write
